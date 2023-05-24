@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		<link rel="stylesheet" type="text/css" href="css/myStyleAbout.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<title>Guilherme Lopes' Homepage</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+
+<section class="parallax">
+	<div class="navTitle">
+		<span class="ntTitle">Guilherme Lopes</span>
+		<span style="color: #ffbf00; font-size: 0.6em;">- Developer</span>
+		<br>
+		<nav class="navOptions" id="navMenu">		
+			<ul class="nav justify-content-end">
+			  <li class="nav-item">
+				<a class="nav-link navOptions" href="index.html">Main</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link navOptions" href="#desktop">Desktop</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link navOptions" href="#mobile">Mobile</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link navOptions" href="#webApp">Web App</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link navOptions" href="isoConsultant.html">ISO Consultant/Auditor</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link navOptions" href="#contactMe">Contact Me</a>
+			  </li>
+			</ul>		
+		</nav>					
+	</div>
+</section>
+<section class="cont txtParagraph" id="top">
+	<div class="txtContainer">
+		<h2>Context</h2>
+		<p>I have extensive experience working with computers, ranging from the old and nostalgic 8-bit models to more modern ones. Some examples include the ZX80 (powered by a Zilog Z80 processor), TRS-80, Apple ][, CPM, MSX line, and IBM-PC with a 16-bit bus.</p>
+		<p>Throughout my career, I have honed my skills in developing numerous applications to effectively address various challenges, often working within the constraints of limited hardware or network resources. This journey has enabled me to independently create comprehensive solutions or insert myself smoothly within software development teams.</p>
+		<p>However, due to my commitments to ethics and confidentiality, I am unable to provide images or videos that pertain to software or network infrastructure scenarios of companies and organizations with active confidentiality agreements. Therefore, the software discussed or showcased here pertains to my solo projects, educational endeavors, or those not protected by such commitments.</p>
+	</div>
+
+    <div class="modal-overlay" id="overlay">
+        <div class="modal" id="modal">
+            <div class="modal-header">
+            </div>
+            <div class="modal-content" id="modalContent">
+                <img class="imgDock" id="imageToZoom">
+            </div>
+            <div class="modal-footer">
+                Click to close.
+            </div>
+        </div>
+    </div>
+	
+</section>
+<section class="parado">
+</section>
+<section class="cont txtParagraph" id="desktop">
+	<table class="txtContainer">
+		<tr>
+			<td class="images">
+				<div class="txtContainer">
+					<h2>(Brazilian) Ice Cream factory comercial solution (1999)</h2>
+					<p>This commercial system developed in Delphi in 1999 met the demand of an ice cream factory in northeastern Brazil. The system controlled customers, orders, invoices, receipt of invoice payments, inventory control, distribution logistics, and delivery routes, and control of returnable product containers, among other features. The system was standalone due to the lack of network structure in the facilities. This software replaced another older software with a text-based interface (using clipper language), also developed by me.</p>
+				</div>
+			</td>
+			<td>
+				<div class="embed-responsive embed-responsive-16by9" id="videoMedia" style="height: 70vh; width: 96%;">
+					<video class="embed-responsive-item" controls autoplay muted poster="images/BGPinguim.bmp">
+						<source src="media/PinguimSorvetes.mp4" type="video/mp4" >
+						Your browser does not support the video tag.
+					</video>  
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="images">
+				<div>
+					<img class="images" src="images/PinguimSorvetes1.jpg" onclick="openModal('images/PinguimSorvetes1.jpg')">
+				</div>
+			</td>
+			<td class="images">
+				<div>
+					<img class="images" src="images/PinguimSorvetes2.jpg" onclick="openModal('images/PinguimSorvetes2.jpg')">
+				</div>
+			</td>		
+		</tr>
+		<tr>
+			<td class="images">
+				<div>
+					<img class="images" src="images/PinguimSorvetes3.jpg" onclick="openModal('images/PinguimSorvetes3.jpg')">
+				</div>
+			</td>
+			<td class="images">
+				<div>
+					<img class="images" src="images/PinguimSorvetes4.jpg" onclick="openModal('images/PinguimSorvetes4.jpg')">
+				</div>
+			</td>		
+		</tr>
+	</table>
+</section>
+
+<section class="paralax">
+</section>
+
+<section class="cont txtParagraph" id="desktop">
+	<table class="txtContainer">
+		<tr>
+			<td class="images">
+				<div class="txtContainer">
+					<h2>(Brazilian) Ice Cream factory comercial solution (1999)</h2>
+					<p>This commercial system developed in Delphi in 1999 met the demand of an ice cream factory in northeastern Brazil. The system controlled customers, orders, invoices, receipt of invoice payments, inventory control, distribution logistics, and delivery routes, and control of returnable product containers, among other features. The system was standalone due to the lack of network structure in the facilities. This software replaced another older software with a text-based interface (using clipper language), also developed by me.</p>
+				</div>
+			</td>
+			<td>
+				<div class="embed-responsive embed-responsive-16by9" id="videoMedia" style="height: 70vh; width: 96%;">
+					<video class="embed-responsive-item" controls autoplay muted poster="images/BGPinguim.bmp">
+						<source src="media/PinguimSorvetes.mp4" type="video/mp4" >
+						Your browser does not support the video tag.
+					</video>  
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="images">
+				<div>
+					<img class="images" src="images/PinguimSorvetes1.jpg" onclick="openModal('images/PinguimSorvetes1.jpg')">
+				</div>
+			</td>
+			<td class="images">
+				<div>
+					<img class="images" src="images/PinguimSorvetes2.jpg" onclick="openModal('images/PinguimSorvetes2.jpg')">
+				</div>
+			</td>		
+		</tr>
+		<tr>
+			<td class="images">
+				<div>
+					<img class="images" src="images/PinguimSorvetes3.jpg" onclick="openModal('images/PinguimSorvetes3.jpg')">
+				</div>
+			</td>
+			<td class="images">
+				<div>
+					<img class="images" src="images/PinguimSorvetes4.jpg" onclick="openModal('images/PinguimSorvetes4.jpg')">
+				</div>
+			</td>		
+		</tr>
+	</table>
+</section>
+
+<section class="paralax">
+</section>
+
+
+<section class="cont txtParagraph" id="contactMe">
+	<div class="txtContainer">
+		<h2>Contact Me</h2>
+		<p>e-mail : <mailto><b>ggolopes@gmail.com</b></mailto></p>
+		<p>Phone : <b>(437) 988-4971</b></p>
+		<p>LinkedIn : <b>https://www.linkedin.com/in/guilherme-g-o-lopes/</b></p>
+	</div>
+	
+</section>
+
+<footer class="cont">
+		2023 Guilherme Lopes &reg;  
+</footer>
+<script src="js/scriptMySite.js"></script>
